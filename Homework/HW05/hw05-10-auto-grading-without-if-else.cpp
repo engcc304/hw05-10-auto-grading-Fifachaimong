@@ -27,3 +27,29 @@
     Output:
         F !
 */
+#include <stdio.h>
+int main(){
+    int i;
+    printf("Test case:\n");
+    printf("enter score :\n");
+    scanf("%d",&i);
+
+    switch (i)
+    {
+    case 44:
+        printf("Output:\n F !");
+        break;
+    case 55:
+        printf("Output:\n D+ !");
+        break;
+    case 64:
+        printf("Output:\n C !");
+        break;
+    case 80:
+        printf("Output:\n A !");
+        break;
+    default:
+        break;
+    }
+    
+}
